@@ -1,0 +1,40 @@
+This is an example of what my console window looks like when I run my text formatter.:
+
+
+Example #1
+
+--- exec-maven-plugin:1.5.0:exec (default-cli) @ TextFormatter ---
+Enter an output format width between 30 and 100 characters: 40
+
+Enter the name of the file to read from: HW8_1.txt
+
+Enter the name of the file to write to: HW8_1(40w).txt
+The file HW8_1(40w).txt already exists. Do you want to overwrite? (Y/N): y
+
+You have successfully written to HW8_1(40w).txt.
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time: 20.983 s
+Finished at: 2020-03-29T21:38:22-04:00
+Final Memory: 11M/44M
+------------------------------------------------------------------------
+
+Example #2
+
+--- exec-maven-plugin:1.5.0:exec (default-cli) @ TextFormatter ---
+Enter an output format width between 30 and 100 characters: 70
+
+Enter the name of the file to read from: HW8_2.txt
+
+Enter the name of the file to write to: HW8_2(70w).txt
+The file HW8_2(70w).txt already exists. Do you want to overwrite? (Y/N): y
+
+You have successfully written to HW8_2(70w).txt.
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time: 17.993 s
+Finished at: 2020-03-29T21:40:48-04:00
+Final Memory: 8M/44M
+------------------------------------------------------------------------
